@@ -1,0 +1,12 @@
+.navigation-bar{
+    margin-bottom: 2em;
+    padding: 1em;
+}
+
+.active{
+    text-decoration:underline;
+    color: #ffc107;
+}
+.navigation-bar :hover{
+    text-emphasis-color:black;
+}

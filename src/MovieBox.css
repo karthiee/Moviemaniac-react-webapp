@@ -1,0 +1,76 @@
+.container {
+    width: 100%;
+    margin: 1em;
+    margin: auto;
+}
+
+.grid {
+    display: grid;
+    margin: 1 px;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 2em;
+}
+
+.card {
+    border-radius: 1px;
+    border: none;
+    transition: transform 0.4s ease;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+
+.main-card {
+    background-color: white;
+    border-radius: none;
+}
+
+.view-more-body {
+    background-color: white;
+    border-radius: 0px;
+}
+
+.row-id{
+    max-width: fit-content;
+    max-height: fit-content;
+}
+.image-detail-column{
+    max-width: 400px;
+    max-height: auto;
+}
+.modal-display {
+    width: 300px;
+    height: auto;
+    display: flex;
+
+}
+
+.modal-box {
+    max-width:fit-content;
+    max-height:fit-content;
+}
+
+.modal-img {
+    max-width: 300px;
+    max-height: auto;
+    object-fit:contain;    
+}
+
+.btn-warning:hover {
+    color: azure;
+    background-color: black;
+    transition: all 0.5s ease-in-out;
+}
+
+.movie-deails-modal {
+    display: grid;
+    place-items: center;
+    max-width: fit-content;
+    max-height: fit-content;
+}
+
+.modal-movie-heading {
+    font-weight: bold;
+}
