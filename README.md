@@ -1,4 +1,1 @@
-API_URL ="https://api.themoviedb.org/3/movie/now_playing?api_key=070cb8829e4215ef79f7f8af57b570e0"
-API_IMG ="https://image.tmdb.org/t/p/w500/"
-API_SEARCH="https://api.themoviedb.org/3/search/movie?api_key=070cb8829e4215ef79f7f8af57b570e0"
-API_DISCOVER="https://api.themoviedb.org/3/discover/movie?api_key=070cb8829e4215ef79f7f8af57b570e0"
+MOVIEMANIAC
